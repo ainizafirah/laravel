@@ -1,7 +1,8 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"><i style="font-size:24px" class="fa">&#xf015;</i>
+      <a class="navbar-brand" href="#"><i style="font-size:24px" class="fa">&#xf015;</i>  
+
 MY GROCERIES</a>
     </div>
     
@@ -13,8 +14,8 @@ MY GROCERIES</a>
         </ul>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i style="font-size:24px" class="fa">&#xf2bd; </i> My Profile <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="{{route ('user.signup')}}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="{{route ('user.signin')}}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </div>
 </nav>
