@@ -3,6 +3,7 @@
 @section ('title')
 
       Laravel Shopping Cart
+      //<!-- takleh letak endsection -->
 
 @section ('content')
   @foreach ($products ->chunk(3) as $productChunk)
