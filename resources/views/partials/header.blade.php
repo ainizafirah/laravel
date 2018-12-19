@@ -14,8 +14,9 @@ MY GROCERIES</a>
         </ul>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i style="font-size:24px" class="fa">&#xf2bd; </i> My Profile <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="{{route ('user.signup')}}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="{{route ('user.signin')}}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="{{ route('register') }}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="{{ route('login') }}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href=""><span class="#"  ></span> Logout</a></li>
     </ul>
   </div>
 </nav>

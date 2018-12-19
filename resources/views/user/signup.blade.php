@@ -21,6 +21,18 @@
 				<label for = "email">Password</label>
 				<input type="password" id="password" name="password" class="form-control">
 			</div>
+			<!-- <div class="form-group">
+				<label for = "age">Age</label>
+				<input type="age" id="age" name="age" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for = "phone number">Phone Number</label>
+				<input type="phone number" id="phonenumber" name="phone number" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for = "address">Address</label>
+				<input type="address" id="address" name="address" class="form-control">
+			</div> -->
 			<button type="submit"class="btn btn-primary" >Sign Up</button>
 			{{ csrf_field ()}}
 		</form>	
