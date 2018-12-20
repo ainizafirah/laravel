@@ -48,7 +48,7 @@ class ProductTableSeeder extends Seeder
         $product->save();
 
         $product =new \App\Product([
-        'imagePath' => 'https://media.mercola.com/assets/images/foodfacts/papaya-nutrition-facts.jpg',
+        'imagePath' => 'https://www.coopathome.ch/img/produkte/300_300/RGB/4903240_001.jpg?_=1457790108707',
         'title' => 'Papaya',
         'description' => 'betik sangat sedap, enak dan lazak.',
         'price' => 6
